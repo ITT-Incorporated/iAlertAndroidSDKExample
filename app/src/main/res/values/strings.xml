@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">iAlertAndroidSDK</string>
+
+    <string name="execute_name">Execute command</string>
+    <string name="execute_many_name">Execute all commands</string>
+</resources>
