@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity implements ITTSystemInfoAndU
     private void initiateScanning() {
         ITTSensorManager manager = null;
         try {
-            ITTSensorManager.ITTIoTDataEnvironment ittIoTDataEnvironment = ITTSensorManager.ITTIoTDataEnvironment.ITT_LSP_VIETNAM_Dev;
+            ITTSensorManager.ITTIoTDataEnvironment ittIoTDataEnvironment = ITTSensorManager.ITTIoTDataEnvironment.ITT_AWS_US_EAST_1_Dev;
             String licenseJWTEncrypted = "";   // provided by ITT
             manager = ITTSensorManager.getInstance(this, ittIoTDataEnvironment, Looper.getMainLooper(), licenseJWTEncrypted, true, this);    // The thread corresponding to this Looper will receive the Scanning callback below
             sensorManager = manager;
